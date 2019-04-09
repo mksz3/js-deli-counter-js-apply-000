@@ -1,4 +1,5 @@
-const takeANumber = (line, name) => {
+let number = 1;
+const takeANumber = (line) => {
     line.push(name);
     return `Welcome, ${name}. You are number ${line.length} in line.`;
 };
