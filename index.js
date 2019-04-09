@@ -1,7 +1,8 @@
-let number = 1;
+let number = 0;
 const takeANumber = (line) => {
-    line.push(name);
-    return `Welcome, ${name}. You are number ${line.length} in line.`;
+   // number++;
+    line.push(++number);
+    return `You are number ${number}.`;
 };
 
 const nowServing = (line) =>  {
